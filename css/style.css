@@ -1,0 +1,113 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border box;
+}
+#topnav
+{
+    overflow: hidden;
+    background-color:#A8D0E6;
+    color:#004740;
+    border:none;
+    overflow: hidden;
+}
+#topnav .icon 
+{
+    display: none;
+}
+#topnav button
+{
+    background-color:#A8D0E6;
+    color:#004740;
+    cursor:pointer;
+    outline:none;
+    padding: 14px 20px;
+    font-size:20px;
+    font-family: system-ui;
+    border:none;
+}
+#topnav button:hover
+{
+    background-color:#1F2833;
+    color:#A8D0E6;
+    border:none;
+}
+#topnav button.active
+{
+    background-color:#1F2833;
+    color:#A8D0E6;
+}
+
+.content
+{
+
+    background-color:#1F2833;
+    color:#66FCF1;
+    font-family: monospace;
+    font-size: 20px;
+    padding:25px;
+}
+.content h1
+{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 0px;
+}
+#about , #skill , #accomp , #contact
+{
+    padding-top:235px;
+    padding-bottom: 235px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#about
+{
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url("https://miro.medium.com/max/3960/0*HICLyAdNSIyT0ODU.jpg");
+  max-width:100%;height:auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#about h1
+{
+    color:yellow;
+    font-family:Gabriola;
+}
+.fa
+{
+    padding: 16px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 40px;
+}
+.fa:hover 
+{
+    opacity: 0.6;
+}
+
+.fa-linkedin 
+{
+    background: #007bb5;
+    color: white;
+}
+.fa-github
+{
+    font-size:168px;
+    color:red;
+    padding-left: 2px;
+
+}
+#edu
+{
+    padding:25px;
+}
+#edu h1, #skill h1, #accomp h1, #contact h1
+{
+    color:rgb(66, 236, 60);
+    
+}
+#about p, #skill li, #accomp li, #contact address
+{
+    font-size:25px;
+}
